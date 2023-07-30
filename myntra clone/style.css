@@ -1,0 +1,113 @@
+.im{
+    height: 60x;
+    width: 30px;
+}
+li{
+    margin: 15px 15px;
+}
+.p{
+    height: 5x;
+    width: 5px;
+}
+.ic{
+    height: 18x;
+    width: 18px;
+     margin-top: 20px;
+     margin-right: 20px;
+     margin-left: 20px;
+}
+.t{
+    margin-right: 5px;
+     margin-left: 5px;
+} 
+nav{
+    background-color: azure;
+}
+
+  
+
+  
+.carousel-container {
+    width: 100%;
+    height: 450px;
+    margin: 0 auto; /* Center the carousel horizontally */
+}
+.carousel-inner{
+    height: 500px;
+}
+.w{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.iimm{
+    margin-top: 5px ;
+    margin-left: 15pX;
+    margin-right: 15px;
+    
+}
+
+.q{
+    margin-top: 80px;
+     margin-left: 40px ;
+      margin-right: 20px;
+
+      font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+.a {
+    display: flex;
+    justify-content: center;
+  }
+
+  .a img {
+    transition: transform 0.3s ease;
+  }
+
+  .a img:hover {
+    transform: scale(1.1);
+  }
+
+
+
+ /* Default styles for large devices (desktops and laptops) */
+/* Default styles for large devices (desktops and laptops) */
+/* Default styles for large devices (desktops and laptops) */
+.carousel-item img {
+    height: 500px;
+}
+
+/* Styles for smaller devices (tablets) */
+@media (max-width: 991.98px) {
+    .carousel-item img {
+        height: 400px;
+    }
+    .w {
+        width: 50%;
+    }
+    .q {
+        font-size: 16px;
+    }
+}
+
+/* Styles for even smaller devices (phones) */
+@media (max-width: 767.98px) {
+    .carousel-item img {
+        height: 300px;
+    }
+    .w {
+        width: 100%;
+    }
+    .q {
+        font-size: 14px;
+    }
+}
+
+/* Additional styles for the form input on smaller devices */
+@media (max-width: 575.98px) {
+    .input-group {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
